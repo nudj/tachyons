@@ -22,22 +22,17 @@
  *
  */
 /* External Library Includes */
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
-html { font-family: sans-serif; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html { line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 /* Sections
    ========================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- */
-body { margin: 0; }
 /**
  * Add the correct display in IE 9-.
  */
@@ -76,12 +71,7 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
  */
 a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
 /**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
-a:active, a:hover { outline-width: 0; }
-/**
- * 1. Remove the bottom border in Firefox 39-.
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
@@ -138,10 +128,9 @@ svg:not(:root) { overflow: hidden; }
 /* Forms
    ========================================================================== */
 /**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
-button, input, optgroup, select, textarea { font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
+button, input, optgroup, select, textarea { margin: 0; }
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -169,10 +158,6 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner,
  */
 button:-moz-focusring, [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em; }
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
@@ -392,6 +377,80 @@ img { max-width: 100%; }
    --color-name = each color variable name is also a border color name
 
 */
+/* nudj custom colors */
+.b--royal-blue { border-color: #002d72; }
+.b--royal-blue-shade-1 { border-color: #002968; }
+.b--royal-blue-shade-2 { border-color: #00255d; }
+.b--royal-blue-shade-3 { border-color: #002051; }
+.b--royal-blue-shade-4 { border-color: undefined; }
+.b--royal-blue-tint-1 { border-color: #1a4382; }
+.b--royal-blue-tint-2 { border-color: #335890; }
+.b--royal-blue-tint-3 { border-color: #4d6d9e; }
+.b--royal-blue-tint-4 { border-color: #6682ac; }
+.b--mid-red { border-color: #e35205; }
+.b--mid-red-shade-1 { border-color: #cc4a04; }
+.b--mid-red-shade-2 { border-color: #b64204; }
+.b--mid-red-shade-3 { border-color: #9e3903; }
+.b--mid-red-shade-4 { border-color: undefined; }
+.b--mid-red-tint-1 { border-color: #e6641e; }
+.b--mid-red-tint-2 { border-color: #e97537; }
+.b--mid-red-tint-3 { border-color: #eb8650; }
+.b--mid-red-tint-4 { border-color: #f4ba9b; }
+.b--light-yellow { border-color: #f7ea48; }
+.b--light-yellow-shade-1 { border-color: #ded241; }
+.b--light-yellow-shade-2 { border-color: #c6bb3a; }
+.b--light-yellow-shade-3 { border-color: #aca332; }
+.b--light-yellow-shade-4 { border-color: undefined; }
+.b--light-yellow-tint-1 { border-color: #f8ec5b; }
+.b--light-yellow-tint-2 { border-color: #faf291; }
+.b--light-yellow-tint-3 { border-color: #fcf7b6; }
+.b--light-yellow-tint-4 { border-color: #fdfbda; }
+.b--dark-pink { border-color: #ef6079; }
+.b--dark-pink-shade-1 { border-color: #d7566d; }
+.b--dark-pink-shade-2 { border-color: #bf4d61; }
+.b--dark-pink-shade-3 { border-color: #a74354; }
+.b--dark-pink-shade-4 { border-color: undefined; }
+.b--dark-pink-tint-1 { border-color: #f17087; }
+.b--dark-pink-tint-2 { border-color: #f28094; }
+.b--dark-pink-tint-3 { border-color: #f490a1; }
+.b--dark-pink-tint-4 { border-color: #f5a0af; }
+.b--light-grey { border-color: #d0d0ce; }
+.b--light-grey-shade-1 { border-color: #bbbbb9; }
+.b--light-grey-shade-2 { border-color: #a6a6a5; }
+.b--light-grey-shade-3 { border-color: #919190; }
+.b--light-grey-shade-4 { border-color: undefined; }
+.b--light-grey-tint-1 { border-color: #d5d5d3; }
+.b--light-grey-tint-2 { border-color: #e3e3e2; }
+.b--light-grey-tint-3 { border-color: #ececeb; }
+.b--light-grey-tint-4 { border-color: #f6f6f5; }
+.b--beige { border-color: #efebd3; }
+.b--beige-shade-1 { border-color: #d7d3bd; }
+.b--beige-shade-2 { border-color: #bfbca9; }
+.b--beige-shade-3 { border-color: #a7a493; }
+.b--beige-shade-4 { border-color: undefined; }
+.b--beige-tint-1 { border-color: #f5f3e5; }
+.b--beige-tint-2 { border-color: #f9f7ed; }
+.b--beige-tint-3 { border-color: #fcfaf0; }
+.b--beige-tint-4 { border-color: #fff; }
+.b--navy { border-color: #081f2c; }
+.b--navy-shade-1 { border-color: #061923; }
+.b--navy-shade-2 { border-color: #05131a; }
+.b--navy-shade-3 { border-color: #030c12; }
+.b--navy-shade-4 { border-color: undefined; }
+.b--navy-tint-1 { border-color: #213642; }
+.b--navy-tint-2 { border-color: #6b7980; }
+.b--navy-tint-3 { border-color: #9ca5ab; }
+.b--navy-tint-4 { border-color: #ced2d5; }
+.b--charcoal { border-color: #2d2926; }
+.b--charcoal-shade-1 { border-color: #282522; }
+.b--charcoal-shade-2 { border-color: #24211e; }
+.b--charcoal-shade-3 { border-color: #1f1d1b; }
+.b--charcoal-shade-4 { border-color: undefined; }
+.b--charcoal-tint-1 { border-color: #423f3c; }
+.b--charcoal-tint-2 { border-color: #817f7d; }
+.b--charcoal-tint-3 { border-color: #aba9a8; }
+.b--charcoal-tint-4 { border-color: #d5d4d4; }
+/* Tachyons original tones */
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
@@ -427,31 +486,6 @@ img { max-width: 100%; }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
-.b--dark-red { border-color: #e7040f; }
-.b--red { border-color: #ff4136; }
-.b--light-red { border-color: #ff725c; }
-.b--orange { border-color: #ff6300; }
-.b--gold { border-color: #ffb700; }
-.b--yellow { border-color: #ffd700; }
-.b--light-yellow { border-color: #fbf1a9; }
-.b--purple { border-color: #5e2ca5; }
-.b--light-purple { border-color: #a463f2; }
-.b--dark-pink { border-color: #d5008f; }
-.b--hot-pink { border-color: #ff41b4; }
-.b--pink { border-color: #ff80cc; }
-.b--light-pink { border-color: #ffa3d7; }
-.b--dark-green { border-color: #137752; }
-.b--green { border-color: #19a974; }
-.b--light-green { border-color: #9eebcf; }
-.b--navy { border-color: #001b44; }
-.b--dark-blue { border-color: #00449e; }
-.b--blue { border-color: #357edd; }
-.b--light-blue { border-color: #96ccff; }
-.b--lightest-blue { border-color: #cdecff; }
-.b--washed-blue { border-color: #f6fffe; }
-.b--washed-green { border-color: #e8fdf5; }
-.b--washed-yellow { border-color: #fffceb; }
-.b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
 /*
@@ -693,6 +727,9 @@ img { max-width: 100%; }
 .flex-column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
 .flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.flex-column-reverse { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+.flex-row-reverse { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.flex-wrap-reverse { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
 .items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 .items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 .items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -754,10 +791,32 @@ img { max-width: 100%; }
 .fn { float: none; }
 /*
 
-   FONT FAMILY GROUPS
+   NUDJ FONT
+   See: http://f37foundry.com/font-library/f37-jan
+
+*/
+@font-face { font-family: 'F37 Jan Bold'; src: url( '../assets/fonts/F37Jan-Bold.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-Bold.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-Bold.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Bold.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Bold.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: bold; font-weight: 700; }
+@font-face { font-family: 'F37 Jan Bold Italic'; src: url( '../assets/fonts/F37Jan-BoldItalic.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-BoldItalic.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-BoldItalic.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-BoldItalic.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-BoldItalic.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: italic; font-weight: 700; }
+@font-face { font-family: 'F37 Jan Light'; src: url( '../assets/fonts/F37Jan-Light.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-Light.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-Light.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Light.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Light.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: normal; font-weight: 200; }
+@font-face { font-family: 'F37 Jan Light Italic'; src: url( '../assets/fonts/F37Jan-LightItalic.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-LightItalic.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-LightItalic.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-LightItalic.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-LightItalic.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: italic; font-weight: 200; }
+@font-face { font-family: 'F37 Jan'; src: url( '../assets/fonts/F37Jan-Regular.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-Regular.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-Regular.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Regular.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Regular.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: normal; font-weight: 400; }
+@font-face { font-family: 'F37 Jan Italic'; src: url( '../assets/fonts/F37Jan-RegularItalic.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-RegularItalic.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-RegularItalic.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-RegularItalic.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-RegularItalic.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: italic; font-weight: 400; }
+@font-face { font-family: 'F37 Jan Thin'; src: url( '../assets/fonts/F37Jan-Thin.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-Thin.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-Thin.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Thin.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-Thin.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: normal; font-weight: 200; }
+@font-face { font-family: 'F37 Jan Thin Italic'; src: url( '../assets/fonts/F37Jan-ThinItalic.eot' ); /* IE9 Compat Modes */ src: url( '../assets/fonts/F37Jan-ThinItalic.eot?#iefix' ) format( 'embedded-opentype' ), /* IE6-IE8 */ url( '../assets/fonts/F37Jan-ThinItalic.woff' ) format( 'woff' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-ThinItalic.woff2' ) format( 'woff2' ), /* Modern Browsers */ url( '../assets/fonts/F37Jan-ThinItalic.ttf' ) format( 'truetype' ); /* Safari, Android, iOS */ font-style: italic; font-weight: 200; }
+/*
+
+   TACHYONS FONT FAMILY GROUPS
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+.jan-bold { font-family: 'F37 Jan Bold', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-regular { font-family: 'F37 Jan', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-light { font-family: 'F37 Jan Light', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-thin { font-family: 'F37 Jan Thin', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-bold-i { font-family: 'F37 Jan Bold Italic', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-regular-i { font-family: 'F37 Jan Italic', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-light-i { font-family: 'F37 Jan Light Italic', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
+.jan-thin-i { font-family: 'F37 Jan Thin Italic', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
@@ -767,6 +826,7 @@ img { max-width: 100%; }
 code, .code { font-family: Consolas, monaco, monospace; }
 .courier { font-family: 'Courier Next', courier, monospace; }
 /* Sans-Serif Typefaces */
+.jan { font-family: 'jan', sans-serif; }
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
 /* Serif Typefaces */
@@ -826,6 +886,28 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .fw7 { font-weight: 700; }
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
+/*
+
+  CUSTOM NUDJ FONTS
+  See: http://f37foundry.com/font-library/f37-jan
+
+     janfw = font-weight
+
+   Modifiers:
+     1 = 200
+     2 = 400
+     3 = 700
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+*/
+.normal { font-weight: normal; }
+.b { font-weight: bold; }
+.janfw1 { font-weight: 200; }
+.janfw2 { font-weight: 400; }
+.janfw3 { font-weight: 700; }
 /*
 
    FORMS
@@ -920,11 +1002,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/elements/links/
 
 */
-.link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:link, .link:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:hover { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; outline: 1px dotted currentColor; }
+.link { text-decoration: none; transition: color .15s ease-in; }
+.link:link, .link:visited { transition: color .15s ease-in; }
+.link:hover { transition: color .15s ease-in; }
+.link:active { transition: color .15s ease-in; }
+.link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
 /*
 
    LISTS
@@ -1114,11 +1196,84 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
-/* Text colors */
+/* nudj Text colors */
+.royal-blue { color: #002d72; }
+.royal-blue-shade-1 { color: #002968; }
+.royal-blue-shade-2 { color: #00255d; }
+.royal-blue-shade-3 { color: #002051; }
+.royal-blue-shade-4 { color: undefined; }
+.royal-blue-tint-1 { color: #1a4382; }
+.royal-blue-tint-2 { color: #335890; }
+.royal-blue-tint-3 { color: #4d6d9e; }
+.royal-blue-tint-4 { color: #6682ac; }
+.mid-red { color: #e35205; }
+.mid-red-shade-1 { color: #cc4a04; }
+.mid-red-shade-2 { color: #b64204; }
+.mid-red-shade-3 { color: #9e3903; }
+.mid-red-shade-4 { color: undefined; }
+.mid-red-tint-1 { color: #e6641e; }
+.mid-red-tint-2 { color: #e97537; }
+.mid-red-tint-3 { color: #eb8650; }
+.mid-red-tint-4 { color: #f4ba9b; }
+.light-yellow { color: #f7ea48; }
+.light-yellow-shade-1 { color: #ded241; }
+.light-yellow-shade-2 { color: #c6bb3a; }
+.light-yellow-shade-3 { color: #aca332; }
+.light-yellow-shade-4 { color: undefined; }
+.light-yellow-tint-1 { color: #f8ec5b; }
+.light-yellow-tint-2 { color: #faf291; }
+.light-yellow-tint-3 { color: #fcf7b6; }
+.light-yellow-tint-4 { color: #fdfbda; }
+.dark-pink { color: #ef6079; }
+.dark-pink-shade-1 { color: #d7566d; }
+.dark-pink-shade-2 { color: #bf4d61; }
+.dark-pink-shade-3 { color: #a74354; }
+.dark-pink-shade-4 { color: undefined; }
+.dark-pink-tint-1 { color: #f17087; }
+.dark-pink-tint-2 { color: #f28094; }
+.dark-pink-tint-3 { color: #f490a1; }
+.dark-pink-tint-4 { color: #f5a0af; }
+.light-grey { color: #d0d0ce; }
+.light-grey-shade-1 { color: #bbbbb9; }
+.light-grey-shade-2 { color: #a6a6a5; }
+.light-grey-shade-3 { color: #919190; }
+.light-grey-shade-4 { color: undefined; }
+.light-grey-tint-1 { color: #d5d5d3; }
+.light-grey-tint-2 { color: #e3e3e2; }
+.light-grey-tint-3 { color: #ececeb; }
+.light-grey-tint-4 { color: #f6f6f5; }
+.beige { color: #efebd3; }
+.beige-shade-1 { color: #d7d3bd; }
+.beige-shade-2 { color: #bfbca9; }
+.beige-shade-3 { color: #a7a493; }
+.beige-shade-4 { color: undefined; }
+.beige-tint-1 { color: #f5f3e5; }
+.beige-tint-2 { color: #f9f7ed; }
+.beige-tint-3 { color: #fcfaf0; }
+.beige-tint-4 { color: #fff; }
+.navy { color: #081f2c; }
+.navy-shade-1 { color: #061923; }
+.navy-shade-2 { color: #05131a; }
+.navy-shade-3 { color: #030c12; }
+.navy-shade-4 { color: undefined; }
+.navy-tint-1 { color: #213642; }
+.navy-tint-2 { color: #6b7980; }
+.navy-tint-3 { color: #9ca5ab; }
+.navy-tint-4 { color: #ced2d5; }
+.charcoal { color: #2d2926; }
+.charcoal-shade-1 { color: #282522; }
+.charcoal-shade-2 { color: #24211e; }
+.charcoal-shade-3 { color: #1f1d1b; }
+.charcoal-shade-4 { color: undefined; }
+.charcoal-tint-1 { color: #423f3c; }
+.charcoal-tint-2 { color: #817f7d; }
+.charcoal-tint-3 { color: #aba9a8; }
+.charcoal-tint-4 { color: #d5d4d4; }
+/* Tachyons original tones */
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
 .black-80 { color: rgba( 0, 0, 0, .8 ); }
 .black-70 { color: rgba( 0, 0, 0, .7 ); }
@@ -1149,32 +1304,81 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
-.dark-red { color: #e7040f; }
-.red { color: #ff4136; }
-.light-red { color: #ff725c; }
-.orange { color: #ff6300; }
-.gold { color: #ffb700; }
-.yellow { color: #ffd700; }
-.light-yellow { color: #fbf1a9; }
-.purple { color: #5e2ca5; }
-.light-purple { color: #a463f2; }
-.dark-pink { color: #d5008f; }
-.hot-pink { color: #ff41b4; }
-.pink { color: #ff80cc; }
-.light-pink { color: #ffa3d7; }
-.dark-green { color: #137752; }
-.green { color: #19a974; }
-.light-green { color: #9eebcf; }
-.navy { color: #001b44; }
-.dark-blue { color: #00449e; }
-.blue { color: #357edd; }
-.light-blue { color: #96ccff; }
-.lightest-blue { color: #cdecff; }
-.washed-blue { color: #f6fffe; }
-.washed-green { color: #e8fdf5; }
-.washed-yellow { color: #fffceb; }
-.washed-red { color: #ffdfdf; }
 .color-inherit { color: inherit; }
+/* nudj custom background colors */
+.bg-royal-blue { background-color: #002d72; }
+.bg-royal-blue-shade-1 { background-color: #002968; }
+.bg-royal-blue-shade-2 { background-color: #00255d; }
+.bg-royal-blue-shade-3 { background-color: #002051; }
+.bg-royal-blue-shade-4 { background-color: undefined; }
+.bg-royal-blue-tint-1 { background-color: #1a4382; }
+.bg-royal-blue-tint-2 { background-color: #335890; }
+.bg-royal-blue-tint-3 { background-color: #4d6d9e; }
+.bg-royal-blue-tint-4 { background-color: #6682ac; }
+.bg-mid-red { background-color: #e35205; }
+.bg-mid-red-shade-1 { background-color: #cc4a04; }
+.bg-mid-red-shade-2 { background-color: #b64204; }
+.bg-mid-red-shade-3 { background-color: #9e3903; }
+.bg-mid-red-shade-4 { background-color: undefined; }
+.bg-mid-red-tint-1 { background-color: #e6641e; }
+.bg-mid-red-tint-2 { background-color: #e97537; }
+.bg-mid-red-tint-3 { background-color: #eb8650; }
+.bg-mid-red-tint-4 { background-color: #f4ba9b; }
+.bg-light-yellow { background-color: #f7ea48; }
+.bg-light-yellow-shade-1 { background-color: #ded241; }
+.bg-light-yellow-shade-2 { background-color: #c6bb3a; }
+.bg-light-yellow-shade-3 { background-color: #aca332; }
+.bg-light-yellow-shade-4 { background-color: undefined; }
+.bg-light-yellow-tint-1 { background-color: #f8ec5b; }
+.bg-light-yellow-tint-2 { background-color: #faf291; }
+.bg-light-yellow-tint-3 { background-color: #fcf7b6; }
+.bg-light-yellow-tint-4 { background-color: #fdfbda; }
+.bg-dark-pink { background-color: #ef6079; }
+.bg-dark-pink-shade-1 { background-color: #d7566d; }
+.bg-dark-pink-shade-2 { background-color: #bf4d61; }
+.bg-dark-pink-shade-3 { background-color: #a74354; }
+.bg-dark-pink-shade-4 { background-color: undefined; }
+.bg-dark-pink-tint-1 { background-color: #f17087; }
+.bg-dark-pink-tint-2 { background-color: #f28094; }
+.bg-dark-pink-tint-3 { background-color: #f490a1; }
+.bg-dark-pink-tint-4 { background-color: #f5a0af; }
+.bg-light-grey { background-color: #d0d0ce; }
+.bg-light-grey-shade-1 { background-color: #bbbbb9; }
+.bg-light-grey-shade-2 { background-color: #a6a6a5; }
+.bg-light-grey-shade-3 { background-color: #919190; }
+.bg-light-grey-shade-4 { background-color: undefined; }
+.bg-light-grey-tint-1 { background-color: #d5d5d3; }
+.bg-light-grey-tint-2 { background-color: #e3e3e2; }
+.bg-light-grey-tint-3 { background-color: #ececeb; }
+.bg-light-grey-tint-4 { background-color: #f6f6f5; }
+.bg-beige { background-color: #efebd3; }
+.bg-beige-shade-1 { background-color: #d7d3bd; }
+.bg-beige-shade-2 { background-color: #bfbca9; }
+.bg-beige-shade-3 { background-color: #a7a493; }
+.bg-beige-shade-4 { background-color: undefined; }
+.bg-beige-tint-1 { background-color: #f5f3e5; }
+.bg-beige-tint-2 { background-color: #f9f7ed; }
+.bg-beige-tint-3 { background-color: #fcfaf0; }
+.bg-beige-tint-4 { background-color: #fff; }
+.bg-navy { background-color: #081f2c; }
+.bg-navy-shade-1 { background-color: #061923; }
+.bg-navy-shade-2 { background-color: #05131a; }
+.bg-navy-shade-3 { background-color: #030c12; }
+.bg-navy-shade-4 { background-color: undefined; }
+.bg-navy-tint-1 { background-color: #213642; }
+.bg-navy-tint-2 { background-color: #6b7980; }
+.bg-navy-tint-3 { background-color: #9ca5ab; }
+.bg-navy-tint-4 { background-color: #ced2d5; }
+.bg-charcoal { background-color: #2d2926; }
+.bg-charcoal-shade-1 { background-color: #282522; }
+.bg-charcoal-shade-2 { background-color: #24211e; }
+.bg-charcoal-shade-3 { background-color: #1f1d1b; }
+.bg-charcoal-shade-4 { background-color: undefined; }
+.bg-charcoal-tint-1 { background-color: #423f3c; }
+.bg-charcoal-tint-2 { background-color: #817f7d; }
+.bg-charcoal-tint-3 { background-color: #aba9a8; }
+.bg-charcoal-tint-4 { background-color: #d5d4d4; }
+/* Tachyons original background colors */
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -1194,7 +1398,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
-/* Background colors */
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
@@ -1207,31 +1410,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #ff4136; }
-.bg-light-red { background-color: #ff725c; }
-.bg-orange { background-color: #ff6300; }
-.bg-gold { background-color: #ffb700; }
-.bg-yellow { background-color: #ffd700; }
-.bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #5e2ca5; }
-.bg-light-purple { background-color: #a463f2; }
-.bg-dark-pink { background-color: #d5008f; }
-.bg-hot-pink { background-color: #ff41b4; }
-.bg-pink { background-color: #ff80cc; }
-.bg-light-pink { background-color: #ffa3d7; }
-.bg-dark-green { background-color: #137752; }
-.bg-green { background-color: #19a974; }
-.bg-light-green { background-color: #9eebcf; }
-.bg-navy { background-color: #001b44; }
-.bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
-.bg-light-blue { background-color: #96ccff; }
-.bg-lightest-blue { background-color: #cdecff; }
-.bg-washed-blue { background-color: #f6fffe; }
-.bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #fffceb; }
-.bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
 /* 
   
@@ -1360,106 +1538,106 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
 .hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
-.hover-dark-red:hover { color: #e7040f; }
-.hover-dark-red:focus { color: #e7040f; }
-.hover-red:hover { color: #ff4136; }
-.hover-red:focus { color: #ff4136; }
-.hover-light-red:hover { color: #ff725c; }
-.hover-light-red:focus { color: #ff725c; }
-.hover-orange:hover { color: #ff6300; }
-.hover-orange:focus { color: #ff6300; }
-.hover-gold:hover { color: #ffb700; }
-.hover-gold:focus { color: #ffb700; }
-.hover-yellow:hover { color: #ffd700; }
-.hover-yellow:focus { color: #ffd700; }
-.hover-light-yellow:hover { color: #fbf1a9; }
-.hover-light-yellow:focus { color: #fbf1a9; }
-.hover-purple:hover { color: #5e2ca5; }
-.hover-purple:focus { color: #5e2ca5; }
-.hover-light-purple:hover { color: #a463f2; }
-.hover-light-purple:focus { color: #a463f2; }
-.hover-dark-pink:hover { color: #d5008f; }
-.hover-dark-pink:focus { color: #d5008f; }
-.hover-hot-pink:hover { color: #ff41b4; }
-.hover-hot-pink:focus { color: #ff41b4; }
-.hover-pink:hover { color: #ff80cc; }
-.hover-pink:focus { color: #ff80cc; }
-.hover-light-pink:hover { color: #ffa3d7; }
-.hover-light-pink:focus { color: #ffa3d7; }
-.hover-dark-green:hover { color: #137752; }
-.hover-dark-green:focus { color: #137752; }
-.hover-green:hover { color: #19a974; }
-.hover-green:focus { color: #19a974; }
-.hover-light-green:hover { color: #9eebcf; }
-.hover-light-green:focus { color: #9eebcf; }
-.hover-navy:hover { color: #001b44; }
-.hover-navy:focus { color: #001b44; }
-.hover-dark-blue:hover { color: #00449e; }
-.hover-dark-blue:focus { color: #00449e; }
-.hover-blue:hover { color: #357edd; }
-.hover-blue:focus { color: #357edd; }
-.hover-light-blue:hover { color: #96ccff; }
-.hover-light-blue:focus { color: #96ccff; }
-.hover-lightest-blue:hover { color: #cdecff; }
-.hover-lightest-blue:focus { color: #cdecff; }
-.hover-washed-blue:hover { color: #f6fffe; }
-.hover-washed-blue:focus { color: #f6fffe; }
-.hover-washed-green:hover { color: #e8fdf5; }
-.hover-washed-green:focus { color: #e8fdf5; }
-.hover-washed-yellow:hover { color: #fffceb; }
-.hover-washed-yellow:focus { color: #fffceb; }
-.hover-washed-red:hover { color: #ffdfdf; }
-.hover-washed-red:focus { color: #ffdfdf; }
-.hover-bg-dark-red:hover { background-color: #e7040f; }
-.hover-bg-dark-red:focus { background-color: #e7040f; }
-.hover-bg-red:hover { background-color: #ff4136; }
-.hover-bg-red:focus { background-color: #ff4136; }
-.hover-bg-light-red:hover { background-color: #ff725c; }
-.hover-bg-light-red:focus { background-color: #ff725c; }
-.hover-bg-orange:hover { background-color: #ff6300; }
-.hover-bg-orange:focus { background-color: #ff6300; }
-.hover-bg-gold:hover { background-color: #ffb700; }
-.hover-bg-gold:focus { background-color: #ffb700; }
-.hover-bg-yellow:hover { background-color: #ffd700; }
-.hover-bg-yellow:focus { background-color: #ffd700; }
-.hover-bg-light-yellow:hover { background-color: #fbf1a9; }
-.hover-bg-light-yellow:focus { background-color: #fbf1a9; }
-.hover-bg-purple:hover { background-color: #5e2ca5; }
-.hover-bg-purple:focus { background-color: #5e2ca5; }
-.hover-bg-light-purple:hover { background-color: #a463f2; }
-.hover-bg-light-purple:focus { background-color: #a463f2; }
-.hover-bg-dark-pink:hover { background-color: #d5008f; }
-.hover-bg-dark-pink:focus { background-color: #d5008f; }
-.hover-bg-hot-pink:hover { background-color: #ff41b4; }
-.hover-bg-hot-pink:focus { background-color: #ff41b4; }
-.hover-bg-pink:hover { background-color: #ff80cc; }
-.hover-bg-pink:focus { background-color: #ff80cc; }
-.hover-bg-light-pink:hover { background-color: #ffa3d7; }
-.hover-bg-light-pink:focus { background-color: #ffa3d7; }
-.hover-bg-dark-green:hover { background-color: #137752; }
-.hover-bg-dark-green:focus { background-color: #137752; }
-.hover-bg-green:hover { background-color: #19a974; }
-.hover-bg-green:focus { background-color: #19a974; }
-.hover-bg-light-green:hover { background-color: #9eebcf; }
-.hover-bg-light-green:focus { background-color: #9eebcf; }
-.hover-bg-navy:hover { background-color: #001b44; }
-.hover-bg-navy:focus { background-color: #001b44; }
-.hover-bg-dark-blue:hover { background-color: #00449e; }
-.hover-bg-dark-blue:focus { background-color: #00449e; }
-.hover-bg-blue:hover { background-color: #357edd; }
-.hover-bg-blue:focus { background-color: #357edd; }
-.hover-bg-light-blue:hover { background-color: #96ccff; }
-.hover-bg-light-blue:focus { background-color: #96ccff; }
-.hover-bg-lightest-blue:hover { background-color: #cdecff; }
-.hover-bg-lightest-blue:focus { background-color: #cdecff; }
-.hover-bg-washed-blue:hover { background-color: #f6fffe; }
-.hover-bg-washed-blue:focus { background-color: #f6fffe; }
-.hover-bg-washed-green:hover { background-color: #e8fdf5; }
-.hover-bg-washed-green:focus { background-color: #e8fdf5; }
-.hover-bg-washed-yellow:hover { background-color: #fffceb; }
-.hover-bg-washed-yellow:focus { background-color: #fffceb; }
-.hover-bg-washed-red:hover { background-color: #ffdfdf; }
-.hover-bg-washed-red:focus { background-color: #ffdfdf; }
+.hover-dark-red:hover { color: undefined; }
+.hover-dark-red:focus { color: undefined; }
+.hover-red:hover { color: undefined; }
+.hover-red:focus { color: undefined; }
+.hover-light-red:hover { color: undefined; }
+.hover-light-red:focus { color: undefined; }
+.hover-orange:hover { color: undefined; }
+.hover-orange:focus { color: undefined; }
+.hover-gold:hover { color: undefined; }
+.hover-gold:focus { color: undefined; }
+.hover-yellow:hover { color: undefined; }
+.hover-yellow:focus { color: undefined; }
+.hover-light-yellow:hover { color: #f7ea48; }
+.hover-light-yellow:focus { color: #f7ea48; }
+.hover-purple:hover { color: undefined; }
+.hover-purple:focus { color: undefined; }
+.hover-light-purple:hover { color: undefined; }
+.hover-light-purple:focus { color: undefined; }
+.hover-dark-pink:hover { color: #ef6079; }
+.hover-dark-pink:focus { color: #ef6079; }
+.hover-hot-pink:hover { color: undefined; }
+.hover-hot-pink:focus { color: undefined; }
+.hover-pink:hover { color: undefined; }
+.hover-pink:focus { color: undefined; }
+.hover-light-pink:hover { color: undefined; }
+.hover-light-pink:focus { color: undefined; }
+.hover-dark-green:hover { color: undefined; }
+.hover-dark-green:focus { color: undefined; }
+.hover-green:hover { color: undefined; }
+.hover-green:focus { color: undefined; }
+.hover-light-green:hover { color: undefined; }
+.hover-light-green:focus { color: undefined; }
+.hover-navy:hover { color: #081f2c; }
+.hover-navy:focus { color: #081f2c; }
+.hover-dark-blue:hover { color: undefined; }
+.hover-dark-blue:focus { color: undefined; }
+.hover-blue:hover { color: undefined; }
+.hover-blue:focus { color: undefined; }
+.hover-light-blue:hover { color: undefined; }
+.hover-light-blue:focus { color: undefined; }
+.hover-lightest-blue:hover { color: undefined; }
+.hover-lightest-blue:focus { color: undefined; }
+.hover-washed-blue:hover { color: undefined; }
+.hover-washed-blue:focus { color: undefined; }
+.hover-washed-green:hover { color: undefined; }
+.hover-washed-green:focus { color: undefined; }
+.hover-washed-yellow:hover { color: undefined; }
+.hover-washed-yellow:focus { color: undefined; }
+.hover-washed-red:hover { color: undefined; }
+.hover-washed-red:focus { color: undefined; }
+.hover-bg-dark-red:hover { background-color: undefined; }
+.hover-bg-dark-red:focus { background-color: undefined; }
+.hover-bg-red:hover { background-color: undefined; }
+.hover-bg-red:focus { background-color: undefined; }
+.hover-bg-light-red:hover { background-color: undefined; }
+.hover-bg-light-red:focus { background-color: undefined; }
+.hover-bg-orange:hover { background-color: undefined; }
+.hover-bg-orange:focus { background-color: undefined; }
+.hover-bg-gold:hover { background-color: undefined; }
+.hover-bg-gold:focus { background-color: undefined; }
+.hover-bg-yellow:hover { background-color: undefined; }
+.hover-bg-yellow:focus { background-color: undefined; }
+.hover-bg-light-yellow:hover { background-color: #f7ea48; }
+.hover-bg-light-yellow:focus { background-color: #f7ea48; }
+.hover-bg-purple:hover { background-color: undefined; }
+.hover-bg-purple:focus { background-color: undefined; }
+.hover-bg-light-purple:hover { background-color: undefined; }
+.hover-bg-light-purple:focus { background-color: undefined; }
+.hover-bg-dark-pink:hover { background-color: #ef6079; }
+.hover-bg-dark-pink:focus { background-color: #ef6079; }
+.hover-bg-hot-pink:hover { background-color: undefined; }
+.hover-bg-hot-pink:focus { background-color: undefined; }
+.hover-bg-pink:hover { background-color: undefined; }
+.hover-bg-pink:focus { background-color: undefined; }
+.hover-bg-light-pink:hover { background-color: undefined; }
+.hover-bg-light-pink:focus { background-color: undefined; }
+.hover-bg-dark-green:hover { background-color: undefined; }
+.hover-bg-dark-green:focus { background-color: undefined; }
+.hover-bg-green:hover { background-color: undefined; }
+.hover-bg-green:focus { background-color: undefined; }
+.hover-bg-light-green:hover { background-color: undefined; }
+.hover-bg-light-green:focus { background-color: undefined; }
+.hover-bg-navy:hover { background-color: #081f2c; }
+.hover-bg-navy:focus { background-color: #081f2c; }
+.hover-bg-dark-blue:hover { background-color: undefined; }
+.hover-bg-dark-blue:focus { background-color: undefined; }
+.hover-bg-blue:hover { background-color: undefined; }
+.hover-bg-blue:focus { background-color: undefined; }
+.hover-bg-light-blue:hover { background-color: undefined; }
+.hover-bg-light-blue:focus { background-color: undefined; }
+.hover-bg-lightest-blue:hover { background-color: undefined; }
+.hover-bg-lightest-blue:focus { background-color: undefined; }
+.hover-bg-washed-blue:hover { background-color: undefined; }
+.hover-bg-washed-blue:focus { background-color: undefined; }
+.hover-bg-washed-green:hover { background-color: undefined; }
+.hover-bg-washed-green:focus { background-color: undefined; }
+.hover-bg-washed-yellow:hover { background-color: undefined; }
+.hover-bg-washed-yellow:focus { background-color: undefined; }
+.hover-bg-washed-red:hover { background-color: undefined; }
+.hover-bg-washed-red:focus { background-color: undefined; }
 .hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
 /* Variables */
 /*
@@ -1879,16 +2057,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Dim element on hover by adding the dim class.
 
 */
-.dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:hover, .dim:focus { -webkit-backface-visibility: hidden; backface-visibility: hidden; opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:active { -webkit-backface-visibility: hidden; backface-visibility: hidden; opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+.dim { opacity: 1; transition: opacity .15s ease-in; }
+.dim:hover, .dim:focus { opacity: .5; transition: opacity .15s ease-in; }
+.dim:active { opacity: .8; transition: opacity .15s ease-out; }
 /*
 
   Animate opacity to 100% on hover by adding the glow class.
 
 */
-.glow { -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.glow:hover, .glow:focus { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.glow { transition: opacity .15s ease-in; }
+.glow:hover, .glow:focus { opacity: 1; transition: opacity .15s ease-in; }
 /*
 
   Hide child & reveal on hover:
@@ -1903,15 +2081,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
     <div class="child"> Hidden until hover or focus </div>
   </div>
 */
-.hide-child .child { opacity: 0; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
+.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
-.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-out; transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
 .grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
-.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-in-out; transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
+.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
@@ -1922,12 +2100,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Performant box-shadow animation pattern from 
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
 */
-.shadow-hover { cursor: pointer; position: relative; -webkit-transition: all .5s cubic-bezier( .165, .84, .44, 1 ); transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
-.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -webkit-transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover { cursor: pointer; position: relative; transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
 /* Combine with classes in skins and skins-pseudo for 
  * many different transition possibilities. */
-.bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
+.bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
 /*
 
   Z-INDEX
@@ -1990,9 +2168,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-seperator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.nested-links a:hover { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.nested-links a { color: undefined; transition: color .15s ease-in; }
+.nested-links a:hover { color: undefined; transition: color .15s ease-in; }
+.nested-links a:focus { color: undefined; transition: color .15s ease-in; }
 /*
 
   STYLES
@@ -2178,6 +2356,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-ns { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-ns { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-ns { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+ .flex-column-reverse-ns { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+ .flex-row-reverse-ns { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+ .flex-wrap-reverse-ns { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -2225,6 +2406,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fw7-ns { font-weight: 700; }
  .fw8-ns { font-weight: 800; }
  .fw9-ns { font-weight: 900; }
+ .normal-ns { font-weight: normal; }
+ .b-ns { font-weight: bold; }
+ .janfw1-ns { font-weight: 200; }
+ .janfw2-ns { font-weight: 400; }
+ .janfw3-ns { font-weight: 700; }
  .h1-ns { height: 1rem; }
  .h2-ns { height: 2rem; }
  .h3-ns { height: 4rem; }
@@ -2590,6 +2776,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-m { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-m { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-m { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+ .flex-column-reverse-m { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+ .flex-row-reverse-m { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+ .flex-wrap-reverse-m { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-m { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-m { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-m { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -2637,6 +2826,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fw7-m { font-weight: 700; }
  .fw8-m { font-weight: 800; }
  .fw9-m { font-weight: 900; }
+ .normal-m { font-weight: normal; }
+ .b-m { font-weight: bold; }
+ .janfw1-m { font-weight: 200; }
+ .janfw2-m { font-weight: 400; }
+ .janfw3-m { font-weight: 700; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -3002,6 +3196,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-column-l { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
  .flex-row-l { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
  .flex-wrap-l { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+ .flex-column-reverse-l { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+ .flex-row-reverse-l { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+ .flex-wrap-reverse-l { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-l { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-l { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-l { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -3049,6 +3246,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .fw7-l { font-weight: 700; }
  .fw8-l { font-weight: 800; }
  .fw9-l { font-weight: 900; }
+ .normal-l { font-weight: normal; }
+ .b-l { font-weight: bold; }
+ .janfw1-l { font-weight: 200; }
+ .janfw2-l { font-weight: 400; }
+ .janfw3-l { font-weight: 700; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
