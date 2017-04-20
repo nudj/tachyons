@@ -1,6 +1,6 @@
 {
-  "name": "nudj-tachyons",
-  "version": "4.7.1",
+  "name": "@nudj/tachyons",
+  "version": "0.0.2",
   "description": "Functional CSS for humans",
   "author": "jgunson, collingo",
   "style": "css/tachyons.min.css",
@@ -9,7 +9,7 @@
     "css",
     "src"
   ],
-  "repository": "nudj-tachyons",
+  "repository": "nudj/tachyons",
   "keywords": [
     "css",
     "oocss",
