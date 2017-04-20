@@ -1,15 +1,15 @@
 {
-  "name": "tachyons",
+  "name": "nudj-tachyons",
   "version": "4.7.1",
   "description": "Functional CSS for humans",
-  "author": "mrmrs",
+  "author": "jgunson, collingo",
   "style": "css/tachyons.min.css",
   "main": "css/tachyons.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
+  "repository": "nudj-tachyons",
   "keywords": [
     "css",
     "oocss",
@@ -30,12 +30,8 @@
   },
   "contributors": [
     {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
+      "name": "nudj tech",
+      "email": "tech@nudj.co"
     }
   ],
   "scripts": {

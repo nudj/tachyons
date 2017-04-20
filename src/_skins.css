@@ -4,12 +4,94 @@
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 
-/* Text colors */
+/* nudj Text colors */
+
+.royal-blue {            color:var(--royal-blue); }
+.royal-blue-shade-1 {    color:var(--royal-blue-shade-1); }
+.royal-blue-shade-2 {    color:var(--royal-blue-shade-2); }
+.royal-blue-shade-3 {    color:var(--royal-blue-shade-3); }
+.royal-blue-shade-4 {    color:var(--royal-blue-share-4); }
+.royal-blue-tint-1 {    color:var(--royal-blue-tint-1); }
+.royal-blue-tint-2 {    color:var(--royal-blue-tint-2); }
+.royal-blue-tint-3 {    color:var(--royal-blue-tint-3); }
+.royal-blue-tint-4 {    color:var(--royal-blue-tint-4); }
+
+.mid-red {            color:var(--mid-red); }
+.mid-red-shade-1 {    color:var(--mid-red-shade-1); }
+.mid-red-shade-2 {    color:var(--mid-red-shade-2); }
+.mid-red-shade-3 {    color:var(--mid-red-shade-3); }
+.mid-red-shade-4 {    color:var(--mid-red-share-4); }
+.mid-red-tint-1 {    color:var(--mid-red-tint-1); }
+.mid-red-tint-2 {    color:var(--mid-red-tint-2); }
+.mid-red-tint-3 {    color:var(--mid-red-tint-3); }
+.mid-red-tint-4 {    color:var(--mid-red-tint-4); }
+
+.light-yellow {            color:var(--light-yellow); }
+.light-yellow-shade-1 {    color:var(--light-yellow-shade-1); }
+.light-yellow-shade-2 {    color:var(--light-yellow-shade-2); }
+.light-yellow-shade-3 {    color:var(--light-yellow-shade-3); }
+.light-yellow-shade-4 {    color:var(--light-yellow-share-4); }
+.light-yellow-tint-1 {    color:var(--light-yellow-tint-1); }
+.light-yellow-tint-2 {    color:var(--light-yellow-tint-2); }
+.light-yellow-tint-3 {    color:var(--light-yellow-tint-3); }
+.light-yellow-tint-4 {    color:var(--light-yellow-tint-4); }
+
+.dark-pink {            color:var(--dark-pink); }
+.dark-pink-shade-1 {    color:var(--dark-pink-shade-1); }
+.dark-pink-shade-2 {    color:var(--dark-pink-shade-2); }
+.dark-pink-shade-3 {    color:var(--dark-pink-shade-3); }
+.dark-pink-shade-4 {    color:var(--dark-pink-share-4); }
+.dark-pink-tint-1 {    color:var(--dark-pink-tint-1); }
+.dark-pink-tint-2 {    color:var(--dark-pink-tint-2); }
+.dark-pink-tint-3 {    color:var(--dark-pink-tint-3); }
+.dark-pink-tint-4 {    color:var(--dark-pink-tint-4); }
+
+.light-grey {            color:var(--light-grey); }
+.light-grey-shade-1 {    color:var(--light-grey-shade-1); }
+.light-grey-shade-2 {    color:var(--light-grey-shade-2); }
+.light-grey-shade-3 {    color:var(--light-grey-shade-3); }
+.light-grey-shade-4 {    color:var(--light-grey-share-4); }
+.light-grey-tint-1 {    color:var(--light-grey-tint-1); }
+.light-grey-tint-2 {    color:var(--light-grey-tint-2); }
+.light-grey-tint-3 {    color:var(--light-grey-tint-3); }
+.light-grey-tint-4 {    color:var(--light-grey-tint-4); }
+
+.beige {            color:var(--beige); }
+.beige-shade-1 {    color:var(--beige-shade-1); }
+.beige-shade-2 {    color:var(--beige-shade-2); }
+.beige-shade-3 {    color:var(--beige-shade-3); }
+.beige-shade-4 {    color:var(--beige-share-4); }
+.beige-tint-1 {    color:var(--beige-tint-1); }
+.beige-tint-2 {    color:var(--beige-tint-2); }
+.beige-tint-3 {    color:var(--beige-tint-3); }
+.beige-tint-4 {    color:var(--beige-tint-4); }
+
+.navy {            color:var(--navy); }
+.navy-shade-1 {    color:var(--navy-shade-1); }
+.navy-shade-2 {    color:var(--navy-shade-2); }
+.navy-shade-3 {    color:var(--navy-shade-3); }
+.navy-shade-4 {    color:var(--navy-share-4); }
+.navy-tint-1 {    color:var(--navy-tint-1); }
+.navy-tint-2 {    color:var(--navy-tint-2); }
+.navy-tint-3 {    color:var(--navy-tint-3); }
+.navy-tint-4 {    color:var(--navy-tint-4); }
+
+.charcoal {            color:var(--charcoal); }
+.charcoal-shade-1 {    color:var(--charcoal-shade-1); }
+.charcoal-shade-2 {    color:var(--charcoal-shade-2); }
+.charcoal-shade-3 {    color:var(--charcoal-shade-3); }
+.charcoal-shade-4 {    color:var(--charcoal-share-4); }
+.charcoal-tint-1 {    color:var(--charcoal-tint-1); }
+.charcoal-tint-2 {    color:var(--charcoal-tint-2); }
+.charcoal-tint-3 {    color:var(--charcoal-tint-3); }
+.charcoal-tint-4 {    color:var(--charcoal-tint-4); }
+
+/* Tachyons original tones */
 
 .black-90 {         color: var(--black-90); }
 .black-80 {         color: var(--black-80); }
@@ -44,32 +126,91 @@
 .near-white {    color: var(--near-white); }
 .white {         color: var(--white); }
 
-.dark-red { color: var(--dark-red); }
-.red { color: var(--red); }
-.light-red { color: var(--light-red); }
-.orange { color: var(--orange); }
-.gold { color: var(--gold); }
-.yellow { color: var(--yellow); }
-.light-yellow { color: var(--light-yellow); }
-.purple { color: var(--purple); }
-.light-purple { color: var(--light-purple); }
-.dark-pink { color: var(--dark-pink); }
-.hot-pink { color: var(--hot-pink); }
-.pink { color: var(--pink); }
-.light-pink { color: var(--light-pink); }
-.dark-green { color: var(--dark-green); }
-.green { color: var(--green); }
-.light-green { color: var(--light-green); }
-.navy { color: var(--navy); }
-.dark-blue { color: var(--dark-blue); }
-.blue { color: var(--blue); }
-.light-blue { color: var(--light-blue); }
-.lightest-blue { color: var(--lightest-blue); }
-.washed-blue { color: var(--washed-blue); }
-.washed-green { color: var(--washed-green); }
-.washed-yellow { color: var(--washed-yellow); }
-.washed-red { color: var(--washed-red); }
 .color-inherit { color: inherit; }
+
+/* nudj custom background colors */
+
+.bg-royal-blue {            background-color:var(--royal-blue); }
+.bg-royal-blue-shade-1 {    background-color:var(--royal-blue-shade-1); }
+.bg-royal-blue-shade-2 {    background-color:var(--royal-blue-shade-2); }
+.bg-royal-blue-shade-3 {    background-color:var(--royal-blue-shade-3); }
+.bg-royal-blue-shade-4 {    background-color:var(--royal-blue-share-4); }
+.bg-royal-blue-tint-1 {    background-color:var(--royal-blue-tint-1); }
+.bg-royal-blue-tint-2 {    background-color:var(--royal-blue-tint-2); }
+.bg-royal-blue-tint-3 {    background-color:var(--royal-blue-tint-3); }
+.bg-royal-blue-tint-4 {    background-color:var(--royal-blue-tint-4); }
+
+.bg-mid-red {            background-color:var(--mid-red); }
+.bg-mid-red-shade-1 {    background-color:var(--mid-red-shade-1); }
+.bg-mid-red-shade-2 {    background-color:var(--mid-red-shade-2); }
+.bg-mid-red-shade-3 {    background-color:var(--mid-red-shade-3); }
+.bg-mid-red-shade-4 {    background-color:var(--mid-red-share-4); }
+.bg-mid-red-tint-1 {    background-color:var(--mid-red-tint-1); }
+.bg-mid-red-tint-2 {    background-color:var(--mid-red-tint-2); }
+.bg-mid-red-tint-3 {    background-color:var(--mid-red-tint-3); }
+.bg-mid-red-tint-4 {    background-color:var(--mid-red-tint-4); }
+
+.bg-light-yellow {            background-color:var(--light-yellow); }
+.bg-light-yellow-shade-1 {    background-color:var(--light-yellow-shade-1); }
+.bg-light-yellow-shade-2 {    background-color:var(--light-yellow-shade-2); }
+.bg-light-yellow-shade-3 {    background-color:var(--light-yellow-shade-3); }
+.bg-light-yellow-shade-4 {    background-color:var(--light-yellow-share-4); }
+.bg-light-yellow-tint-1 {    background-color:var(--light-yellow-tint-1); }
+.bg-light-yellow-tint-2 {    background-color:var(--light-yellow-tint-2); }
+.bg-light-yellow-tint-3 {    background-color:var(--light-yellow-tint-3); }
+.bg-light-yellow-tint-4 {    background-color:var(--light-yellow-tint-4); }
+
+.bg-dark-pink {            background-color:var(--dark-pink); }
+.bg-dark-pink-shade-1 {    background-color:var(--dark-pink-shade-1); }
+.bg-dark-pink-shade-2 {    background-color:var(--dark-pink-shade-2); }
+.bg-dark-pink-shade-3 {    background-color:var(--dark-pink-shade-3); }
+.bg-dark-pink-shade-4 {    background-color:var(--dark-pink-share-4); }
+.bg-dark-pink-tint-1 {    background-color:var(--dark-pink-tint-1); }
+.bg-dark-pink-tint-2 {    background-color:var(--dark-pink-tint-2); }
+.bg-dark-pink-tint-3 {    background-color:var(--dark-pink-tint-3); }
+.bg-dark-pink-tint-4 {    background-color:var(--dark-pink-tint-4); }
+
+.bg-light-grey {            background-color:var(--light-grey); }
+.bg-light-grey-shade-1 {    background-color:var(--light-grey-shade-1); }
+.bg-light-grey-shade-2 {    background-color:var(--light-grey-shade-2); }
+.bg-light-grey-shade-3 {    background-color:var(--light-grey-shade-3); }
+.bg-light-grey-shade-4 {    background-color:var(--light-grey-share-4); }
+.bg-light-grey-tint-1 {    background-color:var(--light-grey-tint-1); }
+.bg-light-grey-tint-2 {    background-color:var(--light-grey-tint-2); }
+.bg-light-grey-tint-3 {    background-color:var(--light-grey-tint-3); }
+.bg-light-grey-tint-4 {    background-color:var(--light-grey-tint-4); }
+
+.bg-beige {            background-color:var(--beige); }
+.bg-beige-shade-1 {    background-color:var(--beige-shade-1); }
+.bg-beige-shade-2 {    background-color:var(--beige-shade-2); }
+.bg-beige-shade-3 {    background-color:var(--beige-shade-3); }
+.bg-beige-shade-4 {    background-color:var(--beige-share-4); }
+.bg-beige-tint-1 {    background-color:var(--beige-tint-1); }
+.bg-beige-tint-2 {    background-color:var(--beige-tint-2); }
+.bg-beige-tint-3 {    background-color:var(--beige-tint-3); }
+.bg-beige-tint-4 {    background-color:var(--beige-tint-4); }
+
+.bg-navy {            background-color:var(--navy); }
+.bg-navy-shade-1 {    background-color:var(--navy-shade-1); }
+.bg-navy-shade-2 {    background-color:var(--navy-shade-2); }
+.bg-navy-shade-3 {    background-color:var(--navy-shade-3); }
+.bg-navy-shade-4 {    background-color:var(--navy-share-4); }
+.bg-navy-tint-1 {    background-color:var(--navy-tint-1); }
+.bg-navy-tint-2 {    background-color:var(--navy-tint-2); }
+.bg-navy-tint-3 {    background-color:var(--navy-tint-3); }
+.bg-navy-tint-4 {    background-color:var(--navy-tint-4); }
+
+.bg-charcoal {            background-color:var(--charcoal); }
+.bg-charcoal-shade-1 {    background-color:var(--charcoal-shade-1); }
+.bg-charcoal-shade-2 {    background-color:var(--charcoal-shade-2); }
+.bg-charcoal-shade-3 {    background-color:var(--charcoal-shade-3); }
+.bg-charcoal-shade-4 {    background-color:var(--charcoal-share-4); }
+.bg-charcoal-tint-1 {    background-color:var(--charcoal-tint-1); }
+.bg-charcoal-tint-2 {    background-color:var(--charcoal-tint-2); }
+.bg-charcoal-tint-3 {    background-color:var(--charcoal-tint-3); }
+.bg-charcoal-tint-4 {    background-color:var(--charcoal-tint-4); }
+
+/* Tachyons original background colors */
 
 .bg-black-90 {         background-color: var(--black-90); }
 .bg-black-80 {         background-color: var(--black-80); }
@@ -91,10 +232,6 @@
 .bg-white-20 {        background-color: var(--white-20); }
 .bg-white-10 {        background-color: var(--white-10); }
 
-
-
-/* Background colors */
-
 .bg-black {         background-color: var(--black); }
 .bg-near-black {    background-color: var(--near-black); }
 .bg-dark-gray {     background-color: var(--dark-gray); }
@@ -108,29 +245,4 @@
 .bg-white {         background-color: var(--white); }
 .bg-transparent {   background-color: var(--transparent); }
 
-.bg-dark-red { background-color: var(--dark-red); }
-.bg-red { background-color: var(--red); }
-.bg-light-red { background-color: var(--light-red); }
-.bg-orange { background-color: var(--orange); }
-.bg-gold { background-color: var(--gold); }
-.bg-yellow { background-color: var(--yellow); }
-.bg-light-yellow { background-color: var(--light-yellow); }
-.bg-purple { background-color: var(--purple); }
-.bg-light-purple { background-color: var(--light-purple); }
-.bg-dark-pink { background-color: var(--dark-pink); }
-.bg-hot-pink { background-color: var(--hot-pink); }
-.bg-pink { background-color: var(--pink); }
-.bg-light-pink { background-color: var(--light-pink); }
-.bg-dark-green { background-color: var(--dark-green); }
-.bg-green { background-color: var(--green); }
-.bg-light-green { background-color: var(--light-green); }
-.bg-navy { background-color: var(--navy); }
-.bg-dark-blue { background-color: var(--dark-blue); }
-.bg-blue { background-color: var(--blue); }
-.bg-light-blue { background-color: var(--light-blue); }
-.bg-lightest-blue { background-color: var(--lightest-blue); }
-.bg-washed-blue { background-color: var(--washed-blue); }
-.bg-washed-green { background-color: var(--washed-green); }
-.bg-washed-yellow { background-color: var(--washed-yellow); }
-.bg-washed-red { background-color: var(--washed-red); }
 .bg-inherit { background-color: inherit; }
