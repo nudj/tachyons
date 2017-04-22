@@ -132,7 +132,7 @@
 .hover-bg-white-10:focus { background-color: var(--white-10); }
 
 /* nudj Custom Colours */
-
+.hover-royal-blue:hover,
 .hover-royal-blue:focus, { color: var(--royal-blue); }
 .hover-royal-blue-shade-1:hover,
 .hover-royal-blue-shade-1:focus, { color: var(--royal-blue-shade-1); }
@@ -277,6 +277,7 @@
 .hover-charcoal-tint-4:hover,
 .hover-charcoal-tint-4:focus, { color: var(--charcoal-tint-4); }
 
+.hover-bg-royal-blue:hover,
 .hover-bg-royal-blue:focus, { color: var(--royal-blue); }
 .hover-bg-royal-blue-shade-1:hover,
 .hover-bg-royal-blue-shade-1:focus, { color: var(--royal-blue-shade-1); }
